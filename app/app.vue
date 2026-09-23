@@ -45,6 +45,7 @@ const navItems = computed(() => [
         <UNavigationMenu
           :items="navItems"
           orientation="vertical"
+          :ui="{ link: 'py-2.5' }"
         />
 
         <template #footer>
